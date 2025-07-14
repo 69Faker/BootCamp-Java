@@ -1,2 +1,2 @@
 # BootCamp-Java
-Neste repositorio irei salvar todas as atividades e exercicios relacionados ao bootcamp santander
+Neste repositorio irei salvar todas as atividades e projetos relacionados ao bootcamp santander.
