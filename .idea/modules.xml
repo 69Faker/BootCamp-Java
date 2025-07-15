@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BootCamp-Java.iml" filepath="$PROJECT_DIR$/.idea/BootCamp-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicioJava/ContaBanco/ContaBanco.iml" filepath="$PROJECT_DIR$/exercicioJava/ContaBanco/ContaBanco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicioJava/EstruturaDeControle/EstruturaDeControle.iml" filepath="$PROJECT_DIR$/exercicioJava/EstruturaDeControle/EstruturaDeControle.iml" />
+    </modules>
+  </component>
+</project>
