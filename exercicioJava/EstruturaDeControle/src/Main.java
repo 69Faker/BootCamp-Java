@@ -9,7 +9,8 @@ public class Main
     public static void main(String[] args)
     {
         Tabuada conta = new Tabuada(); //@estudo: Utilização do for.
-        MassaCorporal massa = new MassaCorporal(); //@estudo: Utização do else-if
+        MassaCorporal massa = new MassaCorporal(); //@estudo: Utização do else-if.
+        ParImpar verificar = new ParImpar(); //@estudo: Utilização do while.
 
         /*System.out.println("Digite um número inteiro que você queira saber a tabuada:");
         conta.operacao();*/
@@ -18,6 +19,7 @@ public class Main
         massa.calcular();*/
 
 
+        verificar.ListaNumeros();
     }
 
 }
