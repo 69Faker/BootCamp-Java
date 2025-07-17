@@ -14,7 +14,7 @@ public class Divisao {
             var numeroSecundario = scanner.nextInt();
             if (numeroSecundario < numeroInicial) continue;
 
-            if (numeroSecundario % numeroInicial == 0)
+            if (numeroSecundario % numeroInicial != 0)
             {
                 System.out.println("parabens");
                 break;
