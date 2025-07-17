@@ -1,3 +1,5 @@
+//@exercicio: Escreva um código onde o usuário entra com sua altura e peso, seja feito o calculo do seu IMC(IMC = peso/(altura * altura)) e seja exibida a mensagem de acordo com o resultado
+
 import java.util.Scanner;
 
 public class MassaCorporal
