@@ -1,9 +1,16 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Banco
 {
     private String nome;
     private List<Conta> contas;
+
+    public Banco(String nome)
+    {
+        this.nome = nome;
+        this.contas = new ArrayList<>();
+    }
 
     public String getNome()
     {
@@ -17,11 +24,45 @@ public class Banco
 
     public List<Conta> getContas()
     {
-        return contas;
+        return new ArrayList<>(contas);
     }
 
-    public void setContas(List<Conta> contas)
+    public ContaCorrente abrirContaCorrente(Cliente cliente)
     {
-        this.contas = contas;
+        ContaCorrente cc = new ContaCorrente(cliente);
+        contas.add(cc);
+        return cc;
+    }
+
+    public ContaPoupanca abrirContaPoupanca(Cliente cliente)
+    {
+        ContaPoupanca cp = new ContaPoupanca(cliente);
+        contas.add(cp);
+        return cp;
+    }
+
+    public Conta buscarContaPorNumero(int numero)
+    {
+        for(Conta c : contas)
+        {
+            if(c.getNumero() == numero)
+            {
+                return c;
+            }
+        }
+        return null;
+    }
+
+    public List<Conta> listarContasCliente(Cliente cliente)
+    {
+        List<Conta> resultado = new ArrayList<>();
+        for(Conta c : contas)
+        {
+            if(c.getCliente().equals(cliente))
+            {
+                resultado.add(c);
+            }
+        }
+        return resultado;
     }
 }
