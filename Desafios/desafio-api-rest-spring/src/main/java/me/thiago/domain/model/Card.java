@@ -1,5 +1,5 @@
 
-package me.dio.domain.model;
+package me.thiago.domain.model;
 
 import jakarta.persistence.*;
 
