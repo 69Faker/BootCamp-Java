@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}  # Conexão com PostgreSQL usando variáveis de ambiente
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+  jpa:
+    open-in-view: false            # Evita LazyInitializationException fora de transações
+    hibernate:
+      ddl-auto: validate           # Valida o schema existente sem alterar o banco
