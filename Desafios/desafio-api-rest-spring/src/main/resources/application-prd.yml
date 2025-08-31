@@ -6,4 +6,4 @@ spring:
   jpa:
     open-in-view: false            # Evita LazyInitializationException fora de transações
     hibernate:
-      ddl-auto: validate           # Valida o schema existente sem alterar o banco
+      ddl-auto: create           # Valida o schema existente sem alterar o banco
